@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate_bundle">
+    <sys_ux_composite_data_template_predicate_bundle action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>My requests - incident bundle</name>
+        <sys_class_name>sys_ux_composite_data_template_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 13:42:16</sys_created_on>
+        <sys_id>690cf89e849a0f108751e0aad9d777d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My requests - incident bundle</sys_name>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_bundle_690cf89e849a0f108751e0aad9d777d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 13:42:16</sys_updated_on>
+    </sys_ux_composite_data_template_predicate_bundle>
+</record_update>

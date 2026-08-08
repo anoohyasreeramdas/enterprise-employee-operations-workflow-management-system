@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conflict>false</conflict>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Leave Request Table</name>
+        <retention_policy/>
+        <source>x_2159797_enterp_0_leave_request</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 18:18:01</sys_created_on>
+        <sys_id>bc917c0ec35a8b100c9fb71ed4013122</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Leave Request Table</sys_name>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>ais_datasource_bc917c0ec35a8b100c9fb71ed4013122</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 18:18:02</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

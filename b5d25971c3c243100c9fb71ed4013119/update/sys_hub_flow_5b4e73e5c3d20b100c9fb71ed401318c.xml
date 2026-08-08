@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,timeFromCreateToActivate=1025387000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>51cbc6c97743011031e3b3c64b5a9907</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description>Automatically manages asset status when an asset is assigned to an employee, placed under repair, or retired.</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>asset_assignment_and_lifecycle_management</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛ Record","reference":"x_2159797_enterp_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"9449b14b-d74c-447c-b837-880a844c08a2":["record"],"6dfeec6b-768b-4332-b076-10fe48d697ea":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛ Record➛Assigned to","reference":"x_2159797_enterp_0_employee","reference_display":"Employee","type":"reference","base_type":"reference","parent_table_name":"x_2159797_enterp_0_asset","column_name":"assigned_to","usedInstances":{"d5fc9748-6e35-4c4d-83b3-972ea11da8ed":["condition"]}}]</label_cache>
+        <master_snapshot>35d0843dc3d20b100c9fb71ed40131e2</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Asset Assignment and Lifecycle Management</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>56d545e5c3ea83100c9fb71ed40131f7</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b4e73e5c3d20b100c9fb71ed401318c</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Asset Assignment and Lifecycle Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>sys_hub_flow_5b4e73e5c3d20b100c9fb71ed401318c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:21</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>aed585e5c3ea83100c9fb71ed401314a</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_2159797_enterp_0_asset">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 16:45:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56d545e5c3ea83100c9fb71ed40131f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:20</sys_updated_on>
+        <table>x_2159797_enterp_0_asset</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>5b4e73e5c3d20b100c9fb71ed401318c</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 16:45:20</sys_created_on>
+        <sys_id>52d545e5c3ea83100c9fb71ed40131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:20</sys_updated_on>
+        <trigger display_value="">56d545e5c3ea83100c9fb71ed40131f7</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5b4e73e5c3d20b100c9fb71ed401318c^sys_idNOT IN52d545e5c3ea83100c9fb71ed40131f8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5b4e73e5c3d20b100c9fb71ed401318c^sys_idNOT INdb4e73e5c3d20b100c9fb71ed401319e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5b4e73e5c3d20b100c9fb71ed401318c</id>
+        <name>Asset Assignment and Lifecycle Management</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:31</sys_created_on>
+        <sys_id>db4e73e5c3d20b100c9fb71ed401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 19:55:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=db4e73e5c3d20b100c9fb71ed401319e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5b4e73e5c3d20b100c9fb71ed401318c^sys_idNOT IN5f4e73e5c3d20b100c9fb71ed40131aa,a74e73e5c3d20b100c9fb71ed40131df,eb4e73e5c3d20b100c9fb71ed40131da"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</model>
+        <model_id>5b4e73e5c3d20b100c9fb71ed401318c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5b4e73e5c3d20b100c9fb71ed401318c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:31</sys_created_on>
+        <sys_id>5f4e73e5c3d20b100c9fb71ed40131aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 20:06:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5f4e73e5c3d20b100c9fb71ed40131aa"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</model>
+        <model_id>5b4e73e5c3d20b100c9fb71ed401318c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5b4e73e5c3d20b100c9fb71ed401318c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:32</sys_created_on>
+        <sys_id>a74e73e5c3d20b100c9fb71ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 19:55:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a74e73e5c3d20b100c9fb71ed40131df"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</model>
+        <model_id>5b4e73e5c3d20b100c9fb71ed401318c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5b4e73e5c3d20b100c9fb71ed401318c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:32</sys_created_on>
+        <sys_id>eb4e73e5c3d20b100c9fb71ed40131da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 20:06:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb4e73e5c3d20b100c9fb71ed40131da"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=5b4e73e5c3d20b100c9fb71ed401318c^sys_idNOT INaf4eb3e5c3d20b100c9fb71ed4013128"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:32</sys_created_on>
+        <sys_id>af4eb3e5c3d20b100c9fb71ed4013128</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:18</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+Va23LbNhD9FQ6f2hm3w4skWu6T60vjGSdOZSV98LgYEAAlTilQIUE6aib/3gUJ0hQvutqNZfshDgEQ2LM4e3YB+u6bLiJ/MmHRFY8F5oTdLuIrqp/ojkNcg5Gh4/RswzQN22S2a5NBz+3j4dBk+pEeYJcFMHSM3UA++1ywiONgvJgzaBayGXE8k30zzCkWYbTQT0SUsCPdi8LZmM3mARYw2MNBDI1hRFmkn5hHevaamgNeT3GQyOevyDL7Q2foICYXmyMD4ThmAoZQP4bJFp/VSGiZ4whmEXLGbzqZ+gGNGNdP7u7BVAmReCYzh8cGsS34MQzruGe6A9s1LWpjho0WiDWzRAvSRwzsq2CcMlrCazghYpje8GBRjpiCD3PjZ/hr7P8Lsx8bcpzHwHaigJWPSIHOm8k09Am7mQs/5HlLbmfeGQbJjH/I7ZfuYh5OAlFxVxLDfGwuTZZGKIu822n4MCoWvPR5hk51BiHBQfmEBXDJTQSLpcM9PwDXo9w3cZhEmfWji7Ob0Tn663R89u5ihEYXt+PR1dn44lz/nuFCXxI5Y26hsgXlcGBATCJ/Lk6J8NOCNN+PnoLCZyGnfua3Bo1J0RVXbaqQoLKrhc9WcdswShqRyqoFw/+++LNJ5rxxHZ8dw6HU7OIzcTvwthgjWqBX7V/FbNWyCbV7hvGDyK00aFduz0LKgvMqF3IGIp/PEyG9VXgIhXMWSc/Ae/rn0+uzd6cf/ri4/U39vhzdvC/+P76B9x4wFzESIcKUoor/5RKAZV2Q5D55zkiJEg5LoZIBzXjJNqrcsWs/BgfdgR4Uu5EZA/3etZpylHAtBKrAPxpJItgMoRXB5V3N8ETtofexCIBsExRvUxwhNEPxIkbTxEVLO4Fwr0+HnSGBnSUPZiEIU9/p+v13yQ4WMCIqLPc+xdWn934c+3xScW+JMdusBsQSHUSLVngwhxofFtb7fWSvSaG0Ro2a/K0iyDpRNEnPMmx3YDjSJ0Bt1zMNx+hjj9qG4R6vpHanwaLG9WcRx+2kMc6iLNggpureLoyXDA62IWy6zHY1jyXZoRT47AWaVssk9lappGRo3ny+OVGfuLzCNJUKTjfNDM+eFLwgfAAl2iEhuJj8M4nChNO6ZMo5NZ9rjyO0n5Tnfz4swawmBy+M2Gq8yyMOB+XeaeGRREUAY75oJoS8cZ30W8BYZ9AbGKD4thT7/nDoEmx5njNwmGl2ErjVoIOQ/DUBk7ZFXJfGtpIxbePwFsL/4w3cS/4VG1vFP+977TL/MGUcAcgIBVLIG2o/CXzKir79xKCxVPp4ntvhtscd0n4f0DqggaAGXo+52OxZgNIZ2Mxbh3OVYaIF+/9yXpaSLw3pUIpPedfLuhh6mZSOmRAyk21fvnA4GmTv4Ny8Sk6XG6plUhVG2oeQ/3L1OE67ZZA7s+uWA8rw1TpmE9CSgdqrQu2GYtqo2wDp79C+hFQeTDr2/K2d9msRli67suW0v4tD1yUAbFl4aNodCcAZrFaFbjQvvjDcUIXSTj1rK8A2jfK0VSzKgqxe0u2w7zU2qantNcXo23XKXgVwEbKd1x+7GPsmCoysXtynypDWMhR61eRzHmrQocEimu9pylpGNXehiSmDzQjgjAQLanL1A8s61aTbRF6G2qvGnZ8pG7UGNGuq7D8gYE9TRtTiaOU9UYu/1lUJjNpkSLuqhJ6zQWivsfjF1wtbi0raplEr8+N289bnbM2QlT1e5sSGBcErRv1sV14tVrzmXC7hjvNZdsjgISe1czI54C/cCfe/JAyRKeaT/Ot1gesSCMEwmWr5EC0fcrhIcfCAF7Ferz0gmKVeqM980ADKwXOFP1CgLGXRorGTslFL5lTm54OCtnW5YVXKjcLsWEQwcrKo6GvhprWfn9whqGYfsJqm3cDadzuFpduEjtLB2rN0qCyv9lv4M5alp/JPkLQZFmTK4iMNSJF9486ylx/FIhv961PeV5Dq3wIo3WzLrJ1Sk3apVFsuXRfOaV0IytxaN2U5VuqEUa/11t5MvH74e1UkyiPtJYny3tOWIZtUHYrWlz4LaD6orQ65/w+V7LJHci0AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5b4e73e5c3d20b100c9fb71ed401318c^sys_idNOT IN195000f5c3520b100c9fb71ed40131e6,7534c0f1c3160b100c9fb71ed4013144"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>d5fc9748-6e35-4c4d-83b3-972ea11da8ed</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:04:24</sys_created_on>
+        <sys_id>195000f5c3520b100c9fb71ed40131e6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:39</sys_updated_on>
+        <ui_id>9449b14b-d74c-447c-b837-880a844c08a2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy27aQBT9FTRry7IxkMCuAiFVShMpadmk0WjwXMNI40fnQaCIf++1PTYWiSiV2KCyYu5rzjk+137dE8HJhAyAB+E4HMVRGEX9IOjfD8LlKFqGfR4xgJB4JGMpYKWCOFcczxsmbRnY76cKmAHey1XvR8HLvzT0Y6sUZOZwwFIudCHZbuE6MBKvheSYJ5PXN48UTOFwA4pM9iepS9FJtgSJpc8NvFO4ZleUZ57HNkVcVDTBB9c5c5ne1xlmsKmEEwYega2BjAMCSZjU4JGUZcgyVzsyMcpiAPnzp0zu2oq1yExNNGVbLX7jzYOgrEsAmcVOhPZInUB1OJkxw15wcmysavXKRQy61oRDwqw0026sLngqjMizusWwpWy6c2nT7LFWhLQDOs/DagQBRcmzRF7TSl7W+ftzA3IuskoSR1HmMZPtiRmjxNKaEs6egIRK45QVhchWtFD5RlTNCCX1VxIPfiLzd7xTi1Xms7jE7aOqzJ9jfFaFF0yJksQ3HIPNB4/onZ5KpvWRCmpIf9kSSU3MUaCVCpUEtHJC2RwrUZgveNUGHPCD5/y/HJ5zWDw+Gqoz87gDW9oPh+O78R3Fu0EVNKCIEswVvH8Bssb736sn/jlSZ/8PsYdub++xTjjzD69m/vtbMr+jcfPu/5vng/7Zt2rHSZXNdcfvlbmpNsxY/dMGQcQxgpiBf3T82dp/24ULEDe7MBcguf6EQrMIkCJIA7SmdLIMLtlbuGT7NbjaRoSjoPrd0F78Nx+Ftz8W1fa7FgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=195000f5c3520b100c9fb71ed40131e6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>fed06a63-5f94-47ab-baf0-8e15aa102f92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:21:22</sys_created_on>
+        <sys_id>7534c0f1c3160b100c9fb71ed4013144</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:39</sys_updated_on>
+        <ui_id>6dfeec6b-768b-4332-b076-10fe48d697ea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy27aQBT9FTRry7J5JbCLQEiV0kRKWjZpNBp7rmGk8aPzIFDEv/faHhuLRpRKbFBZMfc15xyfa7/tieBkSobAg3ASjuNBOBj0g6B/Pwyj8SAK+3zAAELikYylgJUK4lxxPG+YtGVgv58pYAZ4L1e97wUv/9LQj61SkJnDAUu50IVku6XrwEi8FpJjnkzf3j1SMIXDDSgy3Z+kLkUnWQQSS18aeKdwza4ozzyPbYq4qGiCj65z7jK9L3PMYFMJJww8AlsDGQcEkjCpwSMpy5BlrnZkapTFAPLnz5nctRVrkZmaaMq2WvzCm4dBWZcAMoudCO2ROoHqcDJnhr3i5NhY1eqVixh0rQmHhFlpZt1YXfBcGJFndYthkWy6c2nT7KlWhLQDOs/DagQBRcmzRF7TSl7X+cdLA3IhskoSR1HmMZPtiRmjRGRNCWdPQEKlccqKQmQrWqh8I6pmhJL6K4kHP5H5B96pxSrzWVzi9lFV5i8wPq/CS6ZESeIrjsHmg0f0Ts8k0/pIBTWkP22JpCbmKNBKhUoCWjmhbI6VKMwDXrUBB/zgOf9Ho3MOiydHQ3VmHndgS/vhaHI3uaN4N6iCBhRRgrmC9y9A1nj/W/XEP0fq7P9H7LHb23uqE878o6uZ//6WzO9o3Lz7/+b5oH/2rdpxUmVz3fF7ZW6qDTNW/7BBMOBsw4R0/jux/Pnif9uGCzA327AQILn+hESzCpAiSgO0JnWyDi7ZW7pk+z242k6E46D63dBm/DefhfffDt0xyhgJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7534c0f1c3160b100c9fb71ed4013144"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5b4e73e5c3d20b100c9fb71ed401318c^sys_idNOT IN277e7be5c3d20b100c9fb71ed401313e,d4030c31c3160b100c9fb71ed40131b4"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">edd0843dc3d20b100c9fb71ed4013191</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:56:21</sys_created_on>
+        <sys_id>277e7be5c3d20b100c9fb71ed401313e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:18</sys_updated_on>
+        <ui_id>d5fc9748-6e35-4c4d-83b3-972ea11da8ed</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8XPxthOE9a8lW6FwtqMJSuMUcy1dJ2IyZImyUmzkP++K38kYU3ZKHvcm3Ske+85RwftIt1403i30NfOiaWKpt+e4kiogNF6FymoMZpGTCsuvNCqaIE4WoNswgEtuXBGwvbxiLCVkNxi382ApRqPNprufjvyW4OFhBIlFc69FWpJ5YLTrkqhyq5Yxkb5ZJSnaf7uMisnozLL+QgQRnRvKLwZyF18bJH4VdZhHuFumKQtD7SyNI7w2aPiSKMrkA7jqAbFwWu7PSAWgc+UPAIroXynuIZnJ35S73w8DhcrJI2st+OwLXqrBpe0YDgzgWCHeCjlYKGWTa0eOh3BZKygkf7E5MZRPzSBdGDRU6rmK735PAy8FaoV2B9KzUAeduDJhrLx6MLDoMSaGhU1GEPmFMbqtWiLiUudLCVtkkrqDQ0NSUmABeIJeQTJLeHvW/gRrAgq7qkNFXc0S3CCFW2qqJ23JGHf2lL8aAKhTmAvpejcoAuOWWH8Nc1ZY896H7+M5Ekad7sbeiSP/ELbiy+Gh2WRJayxZIdPoM04QV7v93fzh9niw/2nxdeXGX5zn3+R/CsYV+MsHZ9P/uXkXPLPZP71uOd/iHt4oL9Me5qm/+N+Gnfhii62vbZ2+JvT/hSi3U1wXW44MuGIyCJgd8M/HQ62FADBTqGNtt+DhCO2/wVXjGfw8QUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3934c0f1c3160b100c9fb71ed4013142</block>
+        <comment/>
+        <connected_to>d5fc9748-6e35-4c4d-83b3-972ea11da8ed</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:16:04</sys_created_on>
+        <sys_id>d4030c31c3160b100c9fb71ed40131b4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:18</sys_updated_on>
+        <ui_id>fed06a63-5f94-47ab-baf0-8e15aa102f92</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5b4e73e5c3d20b100c9fb71ed401318c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:32</sys_created_on>
+        <sys_id>634e73e5c3d20b100c9fb71ed40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 19:55:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5b4e73e5c3d20b100c9fb71ed401318c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:32</sys_created_on>
+        <sys_id>a74e73e5c3d20b100c9fb71ed40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 19:55:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5b4e73e5c3d20b100c9fb71ed401318c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 19:55:32</sys_created_on>
+        <sys_id>e74e73e5c3d20b100c9fb71ed40131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 19:55:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5b4e73e5c3d20b100c9fb71ed401318c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>51cbc6c97743011031e3b3c64b5a9907</copied_from>
+        <copied_from_name/>
+        <description>Automatically manages asset status when an asset is assigned to an employee, placed under repair, or retired.</description>
+        <flow_priority/>
+        <internal_name>asset_assignment_and_lifecycle_management</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛ Record","reference":"x_2159797_enterp_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"9449b14b-d74c-447c-b837-880a844c08a2":["record"],"6dfeec6b-768b-4332-b076-10fe48d697ea":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛ Record➛Assigned to","reference":"x_2159797_enterp_0_employee","reference_display":"Employee","type":"reference","base_type":"reference","parent_table_name":"x_2159797_enterp_0_asset","column_name":"assigned_to","usedInstances":{"d5fc9748-6e35-4c4d-83b3-972ea11da8ed":["condition"]}}]</label_cache>
+        <master>true</master>
+        <name>Asset Assignment and Lifecycle Management</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Asset Assignment and Lifecycle Management">5b4e73e5c3d20b100c9fb71ed401318c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35d0843dc3d20b100c9fb71ed40131e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:19</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=35d0843dc3d20b100c9fb71ed40131e2^sys_idNOT INb1d0843dc3d20b100c9fb71ed40131e4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>35d0843dc3d20b100c9fb71ed40131e2</id>
+        <name>Asset Assignment and Lifecycle Management</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:36</sys_created_on>
+        <sys_id>b1d0843dc3d20b100c9fb71ed40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 20:06:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b1d0843dc3d20b100c9fb71ed40131e4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=35d0843dc3d20b100c9fb71ed40131e2^sys_idNOT IN71d0c43dc3d20b100c9fb71ed4013127,b9d0843dc3d20b100c9fb71ed40131e5,fdd0c43dc3d20b100c9fb71ed4013102"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</model>
+        <model_id>35d0843dc3d20b100c9fb71ed40131e2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_35d0843dc3d20b100c9fb71ed40131e2</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>71d0c43dc3d20b100c9fb71ed4013127</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=71d0c43dc3d20b100c9fb71ed4013127"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</model>
+        <model_id>35d0843dc3d20b100c9fb71ed40131e2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_35d0843dc3d20b100c9fb71ed40131e2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:36</sys_created_on>
+        <sys_id>b9d0843dc3d20b100c9fb71ed40131e5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9d0843dc3d20b100c9fb71ed40131e5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</model>
+        <model_id>35d0843dc3d20b100c9fb71ed40131e2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_35d0843dc3d20b100c9fb71ed40131e2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>fdd0c43dc3d20b100c9fb71ed4013102</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:34:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fdd0c43dc3d20b100c9fb71ed4013102"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=35d0843dc3d20b100c9fb71ed40131e2^sys_idNOT IN0ed0c43dc3d20b100c9fb71ed4013157"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>0ed0c43dc3d20b100c9fb71ed4013157</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:19</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=35d0843dc3d20b100c9fb71ed40131e2^sys_idNOT IN42d0c43dc3d20b100c9fb71ed4013155,dd538d61c3ea83100c9fb71ed4013119"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>d5fc9748-6e35-4c4d-83b3-972ea11da8ed</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>42d0c43dc3d20b100c9fb71ed4013155</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 20:06:37</sys_updated_on>
+        <ui_id>9449b14b-d74c-447c-b837-880a844c08a2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy27aQBT9FTRry7IxkMCuAiFVShMpadmk0WjwXMNI40fnQaCIf++1PTYWiSiV2KCyYu5rzjk+137dE8HJhAyAB+E4HMVRGEX9IOjfD8LlKFqGfR4xgJB4JGMpYKWCOFcczxsmbRnY76cKmAHey1XvR8HLvzT0Y6sUZOZwwFIudCHZbuE6MBKvheSYJ5PXN48UTOFwA4pM9iepS9FJtgSJpc8NvFO4ZleUZ57HNkVcVDTBB9c5c5ne1xlmsKmEEwYega2BjAMCSZjU4JGUZcgyVzsyMcpiAPnzp0zu2oq1yExNNGVbLX7jzYOgrEsAmcVOhPZInUB1OJkxw15wcmysavXKRQy61oRDwqw0026sLngqjMizusWwpWy6c2nT7LFWhLQDOs/DagQBRcmzRF7TSl7W+ftzA3IuskoSR1HmMZPtiRmjxNKaEs6egIRK45QVhchWtFD5RlTNCCX1VxIPfiLzd7xTi1Xms7jE7aOqzJ9jfFaFF0yJksQ3HIPNB4/onZ5KpvWRCmpIf9kSSU3MUaCVCpUEtHJC2RwrUZgveNUGHPCD5/y/HJ5zWDw+Gqoz87gDW9oPh+O78R3Fu0EVNKCIEswVvH8Bssb736sn/jlSZ/8PsYdub++xTjjzD69m/vtbMr+jcfPu/5vng/7Zt2rHSZXNdcfvlbmpNsxY/dMGQcQxgpiBf3T82dp/24ULEDe7MBcguf6EQrMIkCJIA7SmdLIMLtlbuGT7NbjaRoSjoPrd0F78Nx+Ftz8W1fa7FgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=42d0c43dc3d20b100c9fb71ed4013155"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>fed06a63-5f94-47ab-baf0-8e15aa102f92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 16:34:20</sys_created_on>
+        <sys_id>dd538d61c3ea83100c9fb71ed4013119</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:34:20</sys_updated_on>
+        <ui_id>6dfeec6b-768b-4332-b076-10fe48d697ea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy27aQBT9FTRry7J5JbCLQEiV0kRKWjZpNBp7rmGk8aPzIFDEv/faHhuLRpRKbFBZMfc15xyfa7/tieBkSobAg3ASjuNBOBj0g6B/Pwyj8SAK+3zAAELikYylgJUK4lxxPG+YtGVgv58pYAZ4L1e97wUv/9LQj61SkJnDAUu50IVku6XrwEi8FpJjnkzf3j1SMIXDDSgy3Z+kLkUnWQQSS18aeKdwza4ozzyPbYq4qGiCj65z7jK9L3PMYFMJJww8AlsDGQcEkjCpwSMpy5BlrnZkapTFAPLnz5nctRVrkZmaaMq2WvzCm4dBWZcAMoudCO2ROoHqcDJnhr3i5NhY1eqVixh0rQmHhFlpZt1YXfBcGJFndYthkWy6c2nT7KlWhLQDOs/DagQBRcmzRF7TSl7X+cdLA3IhskoSR1HmMZPtiRmjRGRNCWdPQEKlccqKQmQrWqh8I6pmhJL6K4kHP5H5B96pxSrzWVzi9lFV5i8wPq/CS6ZESeIrjsHmg0f0Ts8k0/pIBTWkP22JpCbmKNBKhUoCWjmhbI6VKMwDXrUBB/zgOf9Ho3MOiydHQ3VmHndgS/vhaHI3uaN4N6iCBhRRgrmC9y9A1nj/W/XEP0fq7P9H7LHb23uqE878o6uZ//6WzO9o3Lz7/+b5oH/2rdpxUmVz3fF7ZW6qDTNW/7BBMOBsw4R0/jux/Pnif9uGCzA327AQILn+hESzCpAiSgO0JnWyDi7ZW7pk+z242k6E46D63dBm/DefhfffDt0xyhgJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dd538d61c3ea83100c9fb71ed4013119"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=35d0843dc3d20b100c9fb71ed40131e2^sys_idNOT IN55538d61c3ea83100c9fb71ed401311f,8ad0c43dc3d20b100c9fb71ed4013152"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3934c0f1c3160b100c9fb71ed4013142</block>
+        <comment/>
+        <connected_to>d5fc9748-6e35-4c4d-83b3-972ea11da8ed</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 16:34:20</sys_created_on>
+        <sys_id>55538d61c3ea83100c9fb71ed401311f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:19</sys_updated_on>
+        <ui_id>fed06a63-5f94-47ab-baf0-8e15aa102f92</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">edd0843dc3d20b100c9fb71ed4013191</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Asset Assignment and Lifecycle Management">35d0843dc3d20b100c9fb71ed40131e2</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>8ad0c43dc3d20b100c9fb71ed4013152</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:19</sys_updated_on>
+        <ui_id>d5fc9748-6e35-4c4d-83b3-972ea11da8ed</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPxvijCWveSrpCoW3GkhVGKeZakhMxWfIkOWlm8t93ZTtOWDO2bnvcm3Wke3XO0T24Ibp2Ve3sUl9ZK1aKTJ+eAyKUx/C7IQpKTqaEasWEE1plLRCQDcjab+AnE7aSsHs8InQtJDO871aBwRrHDZk2P2wJhgVFBEV8SWOaJpM0iaLk3UWcT9I8TlgKHFJsKCHnEo/ODjRGdy0S/JSf21Uet84IterXd32XxQHUhnlWcRQQ/uK4Yhz5FCAtD0gJioHTZjcghgObK3kE1kK5TnAJL1Z8wwuT8dgfLDhKpL0bwzLrnerg4hocIJWautoMxmlBue3MYbyAWrrZKdYdmFdealfiIJeHai3rUj10jpChwcnD1BZJ8Mor9dR7HcVirbcfDyxvhGpd6TelpiCHFTj0Lq+d59MQLnmJjbISqgodzSqjN6ItRi5luJK4CAupt3ipn64QqCceorEQ3iB+3cKPYIRXcY9tsLijmYMVNGsnEduhTZzsA2J3dibB2qNIdDf7WnuKneReXNb540uoEZW7wps3vNexD14P9slMN80M39pxNtJm9Kli/jOLQ1obNMiF0CYFIaf3+9vFw3z5/v7D8vPrJPxxn7fl5xLGxTiOxufzczE5l58zyXljaJJfhMa/2G9mJoqi/6H569AIm3Wj3mtrL/+HmXn2AenuHLymwiK1pcduD/8Mv7HD4RL0FNpq88WLOmL777UckZh9BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_35d0843dc3d20b100c9fb71ed40131e2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>35d0c43dc3d20b100c9fb71ed4013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 20:06:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_35d0843dc3d20b100c9fb71ed40131e2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>79d0c43dc3d20b100c9fb71ed401313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 20:06:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_35d0843dc3d20b100c9fb71ed40131e2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_id>b1d0843dc3d20b100c9fb71ed40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 20:06:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_35d0843dc3d20b100c9fb71ed40131e2"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>5b4e73e5c3d20b100c9fb71ed401318c</sys_id>
+        <latest_snapshot>35d0843dc3d20b100c9fb71ed40131e2</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch10-05-22-2026_06-12-2026_2311.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5b4e73e5c3d20b100c9fb71ed401318c^sys_idNOT IN06d0c43dc3d20b100c9fb71ed4013174"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"06d0c43dc3d20b100c9fb71ed4013174","name":"plan","plan_signature":null}}</plan>
+        <plan_id>5b4e73e5c3d20b100c9fb71ed401318c</plan_id>
+        <snapshot>8fe509e5c3ea83100c9fb71ed40131de</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-25 20:06:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>06d0c43dc3d20b100c9fb71ed4013174</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:45:20</sys_updated_on>
+        <trigger display_value="">56d545e5c3ea83100c9fb71ed40131f7</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5b4e73e5c3d20b100c9fb71ed401318c"/>
+</record_update>

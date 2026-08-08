@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="449e85c6c382c3100c9fb71ed401315a" sys_domain="global" table="x_2159797_enterp_0_leave_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-14 10:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c9e85c6c382c3100c9fb71ed4013160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2159797_enterp_0_leave_request" name="x_2159797_enterp_0_leave_request" sys_domain="global" view="Default view">449e85c6c382c3100c9fb71ed401315a</sys_ui_form>
+            <sys_ui_section caption="Leave Information" display_value="Leave Information" name="x_2159797_enterp_0_leave_request" sys_domain="global" view="Default view">ab22418ec302c3100c9fb71ed4013150</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-14 10:08:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-14 10:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d09e85c6c382c3100c9fb71ed4013162</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2159797_enterp_0_leave_request" name="x_2159797_enterp_0_leave_request" sys_domain="global" view="Default view">449e85c6c382c3100c9fb71ed401315a</sys_ui_form>
+            <sys_ui_section caption="Leave Duration" display_value="Leave Duration" name="x_2159797_enterp_0_leave_request" sys_domain="global" view="Default view">009e85c6c382c3100c9fb71ed4013157</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-14 10:08:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-14 10:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d49e85c6c382c3100c9fb71ed4013175</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2159797_enterp_0_leave_request" name="x_2159797_enterp_0_leave_request" sys_domain="global" view="Default view">449e85c6c382c3100c9fb71ed401315a</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_2159797_enterp_0_leave_request" sys_domain="global" view="Default view">0c9e85c6c382c3100c9fb71ed4013158</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-14 10:08:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2159797_enterp_0_leave_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-14 10:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>449e85c6c382c3100c9fb71ed401315a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2159797_enterp_0_leave_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+            <sys_update_name>sys_ui_form_sections_449e85c6c382c3100c9fb71ed401315a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-14 10:08:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>asset_warranty_expiry_notification</internal_name>
+        <label_cache>[{"name":"f362268e-cce7-42c4-a707-866a725fe811.Record","label":"1 - Look Up Record➛Asset Record","reference":"x_2159797_enterp_0_asset","reference_display":"Asset Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a952cf2-bd9b-47c2-aa51-0ebe0b3d4ce3.item","label":"2➛Asset Record","reference":"x_2159797_enterp_0_asset","reference_display":"Asset Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"pills_draggable_outside_block":"false","pills_draggable_inside_block":"true"}},{"name":"d208d858-b87e-4d75-aa84-02c7f9af1232.Records","label":"1➛Asset Records","reference":"x_2159797_enterp_0_asset","reference_display":"Asset Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a952cf2-bd9b-47c2-aa51-0ebe0b3d4ce3.item.assigned_to.work_email","label":"2➛Asset Record➛Assigned to➛Work Email","reference":"","reference_display":"Work Email","type":"string","base_type":"string","parent_table_name":"x_2159797_enterp_0_employee","column_name":"work_email","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"69d455f1-5b19-4d2a-b673-c70093061e12":["ah_to"]},"attributes":null},{"name":"f362268e-cce7-42c4-a707-866a725fe811.Record.assigned_to.work_email","label":"1 - Look Up Record➛Asset Record➛Assigned to➛Work Email","reference":"","reference_display":"Work Email","type":"string","base_type":"string","parent_table_name":"x_2159797_enterp_0_employee","column_name":"work_email","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Asset Warranty Expiry Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 12:46:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27a52335c3128b100c9fb71ed40131d1</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Asset Warranty Expiry Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>sys_hub_flow_27a52335c3128b100c9fb71ed40131d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 17:56:56</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>7dbc6c82c35a8b100c9fb71ed401312c</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=27a52335c3128b100c9fb71ed40131d1^sys_idNOT INa3a52335c3128b100c9fb71ed40131d3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>27a52335c3128b100c9fb71ed40131d1</id>
+        <name>Asset Warranty Expiry Notification</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 12:46:26</sys_created_on>
+        <sys_id>a3a52335c3128b100c9fb71ed40131d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 12:46:26</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a3a52335c3128b100c9fb71ed40131d3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=27a52335c3128b100c9fb71ed40131d1^sys_idNOT INf4ab6731c3528b100c9fb71ed401318a"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Asset Warranty Expiry Notification">27a52335c3128b100c9fb71ed40131d1</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 13:12:27</sys_created_on>
+        <sys_id>f4ab6731c3528b100c9fb71ed401318a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 13:17:18</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/22SXW/TMBSG/wrydYictkDJHdpUCWkwiVa7maboJD5pLfwRbKdbqPrfOU7c0MGq3Ph8vH7fp348MQU1KlayndTIMiZNQGdA7YYOqbpXUmAVpp4GIyBYN7AyuB4z1jqrd6g7BYGGW1CeitYJdKwsOM/YEVSP28F/FaRFCgZ0VE16Y5eOxedP/D0v6HtXrMvVuuScukJ6Eh4e0hBVmoNUwqFh5eNTxjpwpBbiXafZ9p00P98altHAEsQKRcOb5YJ+nC/Wq6L+uKyLhVgC4gfa+ofGa7/hDSaxdvd66RoAvgQ0AsVM5z+GDkHcGzXMEwfKMkXQ8OLlb0xSDlukPE2CMR+rBGoqt7cQYEvSTejdzM3KBv1EQmALvQo317Vp4L4L0pppJUCtLttW9dp8n0iwWeDqf+k9mcAuBo3WU452e7DPPy4uN9KMVFJT2QbUfIIQnKz7EP2cGCrUJFRp6Dpp9lXn7FGOy+RF5yP+vFX2mS71cm9yaKLxnLhCvqH67Vh+ACdjim8kQ8vnjPnB3yjw/m8Wglj96qOTKVnKUE0YzvMj3EhU6Qn7xskufKErj5c3f376A6XpiR5IAwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=27a52335c3128b100c9fb71ed40131d1^sys_idNOT IN28502c4ac3d68b100c9fb71ed4013193,504beccec31a8b100c9fb71ed401312e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Asset Warranty Expiry Notification">27a52335c3128b100c9fb71ed40131d1</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 17:02:37</sys_created_on>
+        <sys_id>28502c4ac3d68b100c9fb71ed4013193</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 17:13:46</sys_updated_on>
+        <ui_id>d208d858-b87e-4d75-aa84-02c7f9af1232</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWW2vbMBT+K8FPG7hBubd5Kykdg16gLX3pipBtOdGm2J4k59LS/76ji+0scdNkhJExCDE6OtI55zvfJ+np1WORN/RQ3EWItHqnA4Q6HYT6/U5IWkHQ6YcBCnpnnu8lZErBU6ZCYbXMKJhmhOeljcgQTBGTGSfLRzdDGiptvIA9nDAeCZp4w6dn38uIgN0UFd7wdW1q13Q4CSgH13uI3Xiw+dSkaD5DiJGysBhfuaWjwpiKSKfS8T26UDSJKOQQEy6p701JEhGVimVpEZREtwmvDBOWKNjN084LyV4gXqet/WIKVYXUzpVD7CCy5viCKHKvRB6qXDhXm6wEPF7LMksgazB36aM3v/J/0f5k3T+iqwtab4B3RGOSczX6s5itfWO2dUxb4G2mWApd9zq6LyTgRfkpz6fJje2lV2b4WEM2O3PxDudyCWDTTDdUd8i1K76fpPO7ohuXLDF5uUmehoSXI6KUYEGuNC6vXhzhmFEeYZZwluhI0DZNH8rpFCLgKckyloxxJtIZM7tCLdPmmMOgGfN0rrFg46RJQl15E4hFmpdgvzDmRyKYRuEatoHFvg44gaUuHpahYJnCcxaNqaqiF15RquaE/6ibd4zDRaNMed6b78mlHHEiZQU20BT/zDUGFnqHHjaNMktMFudQwYw6oDQHjGzDwVbZ9tYkahu9wpfN82Pvk2OHFAoUbjUjG8Hyvazc0WF7bjx+Pz4u9UTjxk4U9D7YEXKKDnOE1El8U4J7KXBTWppq/46y9ie+xeYD9ne3Xlr9VsUzaDIWVAKkcoX9LYTQpgJavjXvJ4MdcilkcE0WjbsymdoMnRKApHRsTqZVGXwtrU4D3YNpoHu8GiiaVXsDFT078AV0LGr4SAin219vqKJZmCYR0zmu6mBOhCCJWmK6yJhYfsthl9D8R9/JjNjIw7HUddEvNKECvp+0Q3vQRu3+CRqcdJAd+/aD0ND87Ojzpsr+Ssz9JLwDioWER6sw1kFbvILXbVd1GxRPuwPKGB2vkA9+mR2LSne6s7aTrBtUfLLbVSpd4HardzY4G2CISEWGETzKJTw8N7R17syHpL/JrKD/g0ttLVNHejOse7+ZZWvvN/R/vt+O82aChBgHhmDbQpnmwkA5wyHPpZmAQ1vavQ54jz3/AkFf7HoWEQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=28502c4ac3d68b100c9fb71ed4013193"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Asset Warranty Expiry Notification">27a52335c3128b100c9fb71ed40131d1</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>6a952cf2-bd9b-47c2-aa51-0ebe0b3d4ce3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 17:50:24</sys_created_on>
+        <sys_id>504beccec31a8b100c9fb71ed401312e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 17:56:46</sys_updated_on>
+        <ui_id>69d455f1-5b19-4d2a-b673-c70093061e12</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227jNhD9FUJ9dbyyZMtR+pQmDRpgL8Um2EWxWQgUScVsKFGlqDhq4H/vUKJs+bKOvUm6WSBv4vB2ZnjODMUv9w6nzpEzCg/dIE6GeOz6nu+6h14Yxn6YuIfj0B1Q7PScDKcMRuJJpCU0b7EoTfv+PsDhyCOJdxDTMD4Yjol3gPFocOCymLmxT4eE+X2uWdrHRcGvM0Zhhf5UqpuIpZiL2QzBepQXucDVpydelky4oIplztGXrz0nxwq80Ew5R/crXbuGQeCYCRh6KddjoqvcNAuteHZt22/t+IvWKBU1+/s9h91pllEGGydYFKznpDijWEtVOUdalWBQDNMPmag6I+4K/i9scui6rulPGHhAzK5OpxnZaDbm5BRrDPuXRJfKDiUTyQkrGt8pS3Ap9EnX1gz4kGsus2aKxrFoZ0tRptn7xntnvkB7eGApCwDBcuNfpufwk4uJnH5sUZ7xrA6F7RSSYDFvYQ0Bi0tt8Nw7TLAUFopSnOcQxihX8pbXkwFL2r8W0OgnQk5hU0OGPiYGeB/CiftnYD+tzZ+w4saLd7AMTDbABU95TQjHhNyZ9ZyiKk4EcGrhHsQ1+qc04BpnrVtRExkzhSie62PY85ZZD2Y9Ky03COI4iEdjf8GpkCR0HCcBHhN/QaMpBiApbgncEdlgXSA12n35vQOWlt/nGRElZehzC2obTkv8WErBcLbC/EtA+ubMxGTBfm87+61ljf4TbsjkNKxEWiI4R1EhjOaQjFFPGKqRwRfWiBeogNPqo0uJuPWqM6OHKlmitCw0DNPQo7G6hg/FCIDtOx3RDV+u5CwdrPV0I1d+Ck0+vQAHdFtSZ8FSHo8J6ehuXXZ7S26H3VvJ/XZysgHLPkVl9H2yeq0qP11VGW6lFaELIjV57PtubLPZEyhgB6jzS1WTej+2kFddsFqgkpT1wXG6IohT24POTxeqcB9VbI6LQhIO1aLoFJYp1xMoFRtqhO8tCwgqDq/ZullI54vuFyCo5ta5h56SC4YVmZxxJsxRZ2Ua1wpY1hmBW4GKVhhui9JLqSJ12KKacA9ID2/lc+It53BJq472rkrX9UmODPoDzbMqJUxJqWMI603dSa+cq2YY+0uWCrU/N+aDadPhjQu4vSiFM12Zyw27y7kpA6iQEBf0JwS7YEDNW86mNWXrmZarCHgPN5wbsGYVyhgQqcAKrlBNVBt8b/IGwLr4Lf7t+IJf/PDX/xHjfuloh+ObF+Tm8NZO06ahiU7FSv754/Ld20XiGT+yHAejkR+81uNH1+N8Sj2qZJ5b356pJg+2vx4MF1TqJJtFbriLvMEoHIfjCHZkKo/cqFbFugqPrXnPm+jD8BZ12ARqM1xL/jXb2+5c9L7psEIY7CmEpg7ZAnwJ6WHpnwxpC69zb31VyaNVwouoYbf1rd78GWQy2v5HRJYyblHGfzOiOzKpyY8+t8Xld1NZKnQsmPqWUr45eM/HwYdxt/q5mKPe5Mk+f3TB6zPhD5fG00uAbk3FzF0izlO/SOywecvjlQeJvd8jhq/vET+evs/6HvH1PzLmxzFCGgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=504beccec31a8b100c9fb71ed401312e"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=27a52335c3128b100c9fb71ed40131d1^sys_idNOT IN58f9684ac3d68b100c9fb71ed40131d3"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">94f9684ac3d68b100c9fb71ed40131d2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Asset Warranty Expiry Notification">27a52335c3128b100c9fb71ed40131d1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 17:44:40</sys_created_on>
+        <sys_id>58f9684ac3d68b100c9fb71ed40131d3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 17:50:24</sys_updated_on>
+        <ui_id>6a952cf2-bd9b-47c2-aa51-0ebe0b3d4ce3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TTW+jMBD9Lz4TxEeakNyqVpUq7W6ltOplVUWDPSTWGpu1TVIW8d93HAitelrtCebN13uPoWem9U3r3Yu5dU4eNNv+fIuY1AGj955JwbYs3YhqkyYbnmerPEuSrFim5Sov00zkgGLFIqahRqqUHmtH4QlUG+K+F1lSiOKmWJTFGhdLsb5ZABTLRZLxdbWBKs3yLN4hN1a4YaBWIV2joHv9/wn8KJWwOIlpwBI3j5Zt+y+pfxWnoERFpY+Tui9ifdeE0I4UJuDb1LObUXoEElkSMXz3qAXS+gqUw4jVoAV4Yzu29bYlwCKIJ626ueIotadxLNS+O/mHNqZJEgorJEEcx+Qc7icfR7i6Bw/PNJr71k6l/GgkRzdaIbCCVvm7z9hY8NR4afTY4qFU126j2lr/GJ1g84DrZyOkdUQCmyA0UJ90VM9Hc95dWT5IfTFlSirDQc0ReG9l2frAp2eosKZB+xqaRurDvrHmJC/NxKWOD4qCuFLmTEvDKcfAA/GYfIX4gfD7C/wKVgYV32kMNQ8Rc527U+DchxYycf+7DUxGZZOG/WhDaOFWNv6WFpxwoju8hasfZ8+ecumIwkvAHq//VEh0dEGSf4bOxv4K5D+w4S82ZUBJnQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=27a52335c3128b100c9fb71ed40131d1"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=27a52335c3128b100c9fb71ed40131d1"/>
+</record_update>

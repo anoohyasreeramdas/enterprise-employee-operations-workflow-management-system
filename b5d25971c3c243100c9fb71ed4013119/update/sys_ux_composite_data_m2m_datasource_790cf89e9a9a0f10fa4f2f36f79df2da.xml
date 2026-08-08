@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">710cf89e419a0f1005f3df3b93d23bdd</dataset>
+        <datasource display_value="Custom Portal Landing - My Tasks Datasource (Task table)">750cf89e449a0f106eced0909f861fdb</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 13:42:16</sys_created_on>
+        <sys_id>790cf89e9a9a0f10fa4f2f36f79df2da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_790cf89e9a9a0f10fa4f2f36f79df2da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-27 13:42:16</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

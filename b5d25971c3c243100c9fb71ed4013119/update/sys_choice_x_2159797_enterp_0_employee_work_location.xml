@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="work_location" table="x_2159797_enterp_0_employee" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>work_location</element>
+            <name>x_2159797_enterp_0_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
+            <sys_id>b0da2d71c38643100c9fb71ed40131d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>work_location</sys_name>
+            <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+            <sys_update_name>sys_choice_x_2159797_enterp_0_employee_work_location</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hyderabad</label>
+            <language>en</language>
+            <name>x_2159797_enterp_0_employee</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8da2d71c38643100c9fb71ed40131d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
+            <value>hyderabad</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bangalore</label>
+            <language>en</language>
+            <name>x_2159797_enterp_0_employee</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0da2d71c38643100c9fb71ed40131d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
+            <value>bangalore</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chennai</label>
+            <language>en</language>
+            <name>x_2159797_enterp_0_employee</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38da2d71c38643100c9fb71ed40131d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
+            <value>chennai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pune</label>
+            <language>en</language>
+            <name>x_2159797_enterp_0_employee</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcda2d71c38643100c9fb71ed40131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
+            <value>pune</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remote</label>
+            <language>en</language>
+            <name>x_2159797_enterp_0_employee</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34da2d71c38643100c9fb71ed40131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
+            <value>remote</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

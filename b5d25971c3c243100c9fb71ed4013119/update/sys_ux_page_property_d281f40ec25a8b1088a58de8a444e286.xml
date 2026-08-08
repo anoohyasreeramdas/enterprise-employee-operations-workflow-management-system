@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Enterprise Employee Operations &amp; Workflow Management System">9681f40e945a8b10642c0ea28f140798</page>
+        <required_translations>[ {
+  "message" : "New Asset",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Employee",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Leave Request",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 18:17:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d281f40ec25a8b1088a58de8a444e286</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>sys_ux_page_property_d281f40ec25a8b1088a58de8a444e286</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 18:17:59</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_2159797_enterp_0.9681f40e945a8b10642c0ea28f140798.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Asset"},"routeInfo":{"route":"record","fields":{"table":"x_2159797_enterp_0_asset","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_2159797_enterp_0_asset","canCreate":true}}},{"label":{"translatable":true,"message":"New Employee"},"routeInfo":{"route":"record","fields":{"table":"x_2159797_enterp_0_employee","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_2159797_enterp_0_employee","canCreate":true}}},{"label":{"translatable":true,"message":"New Leave Request"},"routeInfo":{"route":"record","fields":{"table":"x_2159797_enterp_0_leave_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_2159797_enterp_0_leave_request","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d281f40ec25a8b1088a58de8a444e286"/>
+</record_update>
