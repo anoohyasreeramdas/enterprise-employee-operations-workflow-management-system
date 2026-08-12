@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
-            <sys_id>e651b1fdc38643100c9fb71ed40131c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>asset_type</sys_name>
             <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ee51b1fdc38643100c9fb71ed40131c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-13 18:02:28</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e651b1fdc38643100c9fb71ed40131c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-13 18:02:28</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6e51b1fdc38643100c9fb71ed40131c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-13 18:02:28</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e251b1fdc38643100c9fb71ed40131cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-13 18:02:28</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6a51b1fdc38643100c9fb71ed40131cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-13 18:02:28</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ee51b1fdc38643100c9fb71ed40131cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-13 18:02:28</sys_updated_on>
@@ -150,7 +143,6 @@
             <sys_created_on>2026-07-13 18:02:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6651b1fdc38643100c9fb71ed40131cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-13 18:02:28</sys_updated_on>

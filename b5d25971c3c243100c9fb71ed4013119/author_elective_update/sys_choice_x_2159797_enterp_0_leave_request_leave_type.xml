@@ -1,140 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="department" table="x_2159797_enterp_0_employee" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="leave_type" table="x_2159797_enterp_0_leave_request" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>department</element>
-            <name>x_2159797_enterp_0_employee</name>
+            <element>leave_type</element>
+            <name>x_2159797_enterp_0_leave_request</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 17:19:31</sys_created_on>
-            <sys_id>dd8721f9c34643100c9fb71ed4013164</sys_id>
+            <sys_created_on>2026-07-14 10:04:05</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>department</sys_name>
+            <sys_name>leave_type</sys_name>
             <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
             <sys_policy/>
             <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
-            <sys_update_name>sys_choice_x_2159797_enterp_0_employee_department</sys_update_name>
+            <sys_update_name>sys_choice_x_2159797_enterp_0_leave_request_leave_type</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:19:31</sys_updated_on>
+            <sys_updated_on>2026-07-14 10:04:05</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>leave_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>HR</label>
+            <label>Annual Leave</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_employee</name>
+            <name>x_2159797_enterp_0_leave_request</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 17:19:31</sys_created_on>
+            <sys_created_on>2026-07-14 10:04:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d58721f9c34643100c9fb71ed4013164</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:19:31</sys_updated_on>
-            <value>hr</value>
+            <sys_updated_on>2026-07-14 10:04:05</sys_updated_on>
+            <value>annual_leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>leave_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>IT</label>
+            <label>Sick Leave</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_employee</name>
+            <name>x_2159797_enterp_0_leave_request</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 17:19:31</sys_created_on>
+            <sys_created_on>2026-07-14 10:04:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>558721f9c34643100c9fb71ed4013167</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:19:31</sys_updated_on>
-            <value>it</value>
+            <sys_updated_on>2026-07-14 10:04:05</sys_updated_on>
+            <value>sick_leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>leave_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Finance</label>
+            <label>Casual Leave</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_employee</name>
+            <name>x_2159797_enterp_0_leave_request</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 17:19:31</sys_created_on>
+            <sys_created_on>2026-07-14 10:04:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d98721f9c34643100c9fb71ed4013168</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:19:31</sys_updated_on>
-            <value>finance</value>
+            <sys_updated_on>2026-07-14 10:04:05</sys_updated_on>
+            <value>casual_leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>leave_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Facilities</label>
+            <label>Work from Home</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_employee</name>
+            <name>x_2159797_enterp_0_leave_request</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 17:19:31</sys_created_on>
+            <sys_created_on>2026-07-14 10:04:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>518721f9c34643100c9fb71ed401316a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:19:31</sys_updated_on>
-            <value>facilities</value>
+            <sys_updated_on>2026-07-14 10:04:05</sys_updated_on>
+            <value>work_from_home</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>leave_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Sales</label>
+            <label>Maternity Leave</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_employee</name>
+            <name>x_2159797_enterp_0_leave_request</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 17:19:31</sys_created_on>
+            <sys_created_on>2026-07-14 10:04:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d58721f9c34643100c9fb71ed401316b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:19:31</sys_updated_on>
-            <value>sales</value>
+            <sys_updated_on>2026-07-14 10:04:05</sys_updated_on>
+            <value>maternity_leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>leave_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Operations</label>
+            <label>Paternity Leave</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_employee</name>
+            <name>x_2159797_enterp_0_leave_request</name>
             <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 17:19:31</sys_created_on>
+            <sys_created_on>2026-07-14 10:04:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5d8721f9c34643100c9fb71ed401316c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:19:31</sys_updated_on>
-            <value>operations</value>
+            <sys_updated_on>2026-07-14 10:04:05</sys_updated_on>
+            <value>paternity_leave</value>
         </sys_choice>
     </sys_choice>
 </record_update>

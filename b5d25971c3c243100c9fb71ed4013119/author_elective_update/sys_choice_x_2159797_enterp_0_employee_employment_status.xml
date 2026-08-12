@@ -1,100 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="asset_status" table="x_2159797_enterp_0_asset" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="employment_status" table="x_2159797_enterp_0_employee" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>asset_status</element>
-            <name>x_2159797_enterp_0_asset</name>
+            <element>employment_status</element>
+            <name>x_2159797_enterp_0_employee</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 18:02:27</sys_created_on>
-            <sys_id>ca51b1fdc38643100c9fb71ed401311c</sys_id>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>asset_status</sys_name>
+            <sys_name>employment_status</sys_name>
             <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
             <sys_policy/>
             <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
-            <sys_update_name>sys_choice_x_2159797_enterp_0_asset_asset_status</sys_update_name>
+            <sys_update_name>sys_choice_x_2159797_enterp_0_employee_employment_status</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 18:02:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>asset_status</element>
+            <element>employment_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Available</label>
+            <label>Active</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_asset</name>
+            <name>x_2159797_enterp_0_employee</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 18:02:27</sys_created_on>
+            <sys_created_on>2026-07-13 17:33:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c251b1fdc38643100c9fb71ed401311c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 18:02:27</sys_updated_on>
-            <value>available</value>
+            <sys_updated_on>2026-07-13 17:33:57</sys_updated_on>
+            <value>active</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>asset_status</element>
+            <element>employment_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Assigned</label>
+            <label>On Leave</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_asset</name>
+            <name>x_2159797_enterp_0_employee</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 18:02:27</sys_created_on>
+            <sys_created_on>2026-07-13 17:33:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca51b1fdc38643100c9fb71ed401311e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 18:02:27</sys_updated_on>
-            <value>assigned</value>
+            <sys_updated_on>2026-07-13 17:33:58</sys_updated_on>
+            <value>on_leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>asset_status</element>
+            <element>employment_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Under Repair</label>
+            <label>Probation</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_asset</name>
+            <name>x_2159797_enterp_0_employee</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 18:02:27</sys_created_on>
+            <sys_created_on>2026-07-13 17:33:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4251b1fdc38643100c9fb71ed4013120</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 18:02:27</sys_updated_on>
-            <value>under_repair</value>
+            <sys_updated_on>2026-07-13 17:33:58</sys_updated_on>
+            <value>probation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>asset_status</element>
+            <element>employment_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Retired</label>
+            <label>Inactive</label>
             <language>en</language>
-            <name>x_2159797_enterp_0_asset</name>
+            <name>x_2159797_enterp_0_employee</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-13 18:02:27</sys_created_on>
+            <sys_created_on>2026-07-13 17:33:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c651b1fdc38643100c9fb71ed4013121</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 18:02:27</sys_updated_on>
-            <value>retired</value>
+            <sys_updated_on>2026-07-13 17:33:58</sys_updated_on>
+            <value>inactive</value>
         </sys_choice>
     </sys_choice>
 </record_update>

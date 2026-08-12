@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">de91b04ec35a8b100c9fb71ed401315f</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 18:18:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9291b04ec35a8b100c9fb71ed40131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Employee Operations &amp;amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp;amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>par_dashboard_widget_9291b04ec35a8b100c9fb71ed40131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 18:18:07</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</application>
+        <file_path/>
+        <instance_id>4fb943391b56f51065324089bd4bcb6d</instance_id>
+        <instance_name>dev204698</instance_name>
+        <name>par_dashboard_widget_9291b04ec35a8b100c9fb71ed40131a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">de91b04ec35a8b100c9fb71ed401315f</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-26 18:18:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9291b04ec35a8b100c9fb71ed40131a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Enterprise Employee Operations &amp;amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package><sys_policy/><sys_scope display_value="Enterprise Employee Operations &amp;amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope><sys_update_name>par_dashboard_widget_9291b04ec35a8b100c9fb71ed40131a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-26 18:18:07</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1484405240</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>35d25971c3c243100c9fb71ed401313b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 18:18:07</sys_created_on>
+        <sys_id>5691b04ec35a8b100c9fb71ed40131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f9fa60e7b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 18:18:07</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>1691b04e235a8b10b1c09d92f34de0a4</update_guid>
+        <update_guid_history>1691b04e235a8b10b1c09d92f34de0a4:-1484405240</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e9618a79c3a247100c9fb71ed401318f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-07 15:43:59</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>85760331bb2649f4a5b9f14ea59e2284</sys_id>
+        <sys_metadata>9291b04ec35a8b100c9fb71ed40131a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_scope_delete display_value="">47f5340d96fd4570939650f36af05601</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9291b04ec35a8b100c9fb71ed40131a2</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9291b04ec35a8b100c9fb71ed40131a2">5691b04ec35a8b100c9fb71ed40131a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-07 15:43:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">de91b04ec35a8b100c9fb71ed401315f</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"e291f04ec35a8b100c9fb71ed4013129","isDatabaseView":false,"sourceType":"table","tableOrViewName":"x_2159797_enterp_0_asset","label":"Asset"}],"allowAdditionalGroupByPerMetric":false,"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"allowListPagination":true,"columnLimit":0,"limit":10,"maxCharLimit":4000,"bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_2159797_enterp_0_asset","headerTitle":"My Work","showRecordCount":true,"sortByOrder":"ORDERBY","lineClamp":1,"showBorder":true,"componentId":"lingcku9"}</component_props>
+        <h>18</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 18:18:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9a91b04ec35a8b100c9fb71ed401319a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Employee Operations &amp;amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp;amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>par_dashboard_widget_9a91b04ec35a8b100c9fb71ed401319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 18:45:14</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</application>
+        <file_path/>
+        <instance_id>4fb943391b56f51065324089bd4bcb6d</instance_id>
+        <instance_name>dev204698</instance_name>
+        <name>par_dashboard_widget_9a91b04ec35a8b100c9fb71ed401319a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">de91b04ec35a8b100c9fb71ed401315f</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"e291f04ec35a8b100c9fb71ed4013129","isDatabaseView":false,"sourceType":"table","tableOrViewName":"x_2159797_enterp_0_asset","label":"Asset"}],"allowAdditionalGroupByPerMetric":false,"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"allowListPagination":true,"columnLimit":0,"limit":10,"maxCharLimit":4000,"bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_2159797_enterp_0_asset","headerTitle":"My Work","showRecordCount":true,"sortByOrder":"ORDERBY","lineClamp":1,"showBorder":true,"componentId":"lingcku9"}</component_props><h>18</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-26 18:18:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a91b04ec35a8b100c9fb71ed401319a</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Enterprise Employee Operations &amp;amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package><sys_policy/><sys_scope display_value="Enterprise Employee Operations &amp;amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope><sys_update_name>par_dashboard_widget_9a91b04ec35a8b100c9fb71ed401319a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-26 18:45:14</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1553026879</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>35d25971c3c243100c9fb71ed401313b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-26 18:45:14</sys_created_on>
+        <sys_id>efc7f48ac39a8b100c9fb71ed40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f9fbedff30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-26 18:45:14</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>afc7f48aff9a8b10953979ceab60e2ca</update_guid>
+        <update_guid_history>afc7f48aff9a8b10953979ceab60e2ca:1553026879,39c7b48ac39a8b10eea597c7a7bb7c59:-421345887,aa91f04ea35a8b103d556786fb8d402c:948080463,1e91b04e2a5a8b1034e13f149756eb9c:-1156823525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4cd04639c3a247100c9fb71ed4013100</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-07 15:41:26</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1d2a00fcbf9d497a83e7746168cd0544</sys_id>
+        <sys_metadata>9a91b04ec35a8b100c9fb71ed401319a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_scope_delete display_value="">47f5340d96fd4570939650f36af05601</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9a91b04ec35a8b100c9fb71ed401319a</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9a91b04ec35a8b100c9fb71ed401319a">efc7f48ac39a8b100c9fb71ed40131cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-07 15:41:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

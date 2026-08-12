@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="DELETE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">7d0cf89e1a9a0f10042e3fbac2981bdc</dataset>
+        <datasource display_value="">51e09e32c35643500c9fb71ed401311c</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-29 09:13:06</sys_created_on>
+        <sys_id>73915272c35643500c9fb71ed4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_73915272c35643500c9fb71ed4013196</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-29 09:13:06</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</application>
+        <file_path/>
+        <instance_id>4fb943391b56f51065324089bd4bcb6d</instance_id>
+        <instance_name>dev204698</instance_name>
+        <name>sys_ux_composite_data_m2m_datasource_73915272c35643500c9fb71ed4013196</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource"><sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE"><dataset display_value="Custom Portal Landing - My Requests Dataset">7d0cf89e1a9a0f10042e3fbac2981bdc</dataset><datasource display_value="">51e09e32c35643500c9fb71ed401311c</datasource><sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-29 09:13:06</sys_created_on><sys_id>73915272c35643500c9fb71ed4013196</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package><sys_policy/><sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope><sys_update_name>sys_ux_composite_data_m2m_datasource_73915272c35643500c9fb71ed4013196</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-29 09:13:06</sys_updated_on></sys_ux_composite_data_m2m_datasource></record_update>]]></payload>
+        <payload_hash>-946229375</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>35d25971c3c243100c9fb71ed401313b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-29 09:13:06</sys_created_on>
+        <sys_id>ff9156b2c35643500c9fb71ed401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fad2626640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-29 09:13:06</sys_updated_on>
+        <type>EVAM Datasource M2M</type>
+        <update_guid>b791527209564350913d2b5bb84b3a9a</update_guid>
+        <update_guid_history>b791527209564350913d2b5bb84b3a9a:-946229375</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-29 09:13:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_m2m_datasource">sys_ux_composite_data_m2m_datasource</sys_db_object>
+        <sys_id>b625096ad0eb44b5aabc0e6c564b09d1</sys_id>
+        <sys_metadata>73915272c35643500c9fb71ed4013196</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enterprise Employee Operations &amp; Workflow Management System" source="x_2159797_enterp_0">b5d25971c3c243100c9fb71ed4013119</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Operations &amp; Workflow Management System">b5d25971c3c243100c9fb71ed4013119</sys_scope>
+        <sys_scope_delete display_value="">47f5340d96fd4570939650f36af05601</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_73915272c35643500c9fb71ed4013196</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_m2m_datasource_73915272c35643500c9fb71ed4013196">ff9156b2c35643500c9fb71ed401316d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-29 09:13:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

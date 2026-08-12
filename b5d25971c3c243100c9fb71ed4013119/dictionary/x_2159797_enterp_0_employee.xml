@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a03eddf5c30643100c9fb71ed40131f7" label="Employee" max_length="40" name="x_2159797_enterp_0_employee" text_index="true" type="collection">
+        <element choice="3" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" sequence="3" value="facilities"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="Operations" sequence="5" value="operations"/>
+                <element inactive_on_update="false" label="HR" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Sales" sequence="4" value="sales"/>
+                <element inactive_on_update="false" label="Finance" sequence="2" value="finance"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Manager" max_length="32" name="manager" reference="x_2159797_enterp_0_employee" type="reference"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element choice="3" label="Work Location" max_length="40" name="work_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Remote" sequence="4" value="remote"/>
+                <element inactive_on_update="false" label="Chennai" sequence="2" value="chennai"/>
+                <element inactive_on_update="false" label="Bangalore" sequence="1" value="bangalore"/>
+                <element inactive_on_update="false" label="Hyderabad" sequence="0" value="hyderabad"/>
+                <element inactive_on_update="false" label="Pune" sequence="3" value="pune"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Employee ID" max_length="40" name="employee_id" type="string"/>
+        <element label="Job Title" max_length="40" name="job_title" type="string"/>
+        <element label="Date of Joining" max_length="40" name="date_of_joining" type="glide_date"/>
+        <element label="Work Email" max_length="40" name="work_email" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element choice="3" label="Employment Status" max_length="40" name="employment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Probation" sequence="2" value="probation"/>
+                <element inactive_on_update="false" label="On Leave" sequence="1" value="on_leave"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="3" value="inactive"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="manager"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

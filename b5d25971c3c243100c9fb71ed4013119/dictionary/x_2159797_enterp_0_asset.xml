@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="911fa5b9c38643100c9fb71ed40131fd" label="Asset" max_length="40" name="x_2159797_enterp_0_asset" text_index="true" type="collection">
+        <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element choice="3" label="Asset Status" max_length="40" name="asset_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Repair" sequence="2" value="under_repair"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Retired" sequence="3" value="retired"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Asset Name" max_length="40" name="asset_name" type="string"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="x_2159797_enterp_0_employee" type="reference"/>
+        <element label="Warranty Expiry" max_length="40" name="warranty_expiry" type="glide_date"/>
+        <element choice="3" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Headset" sequence="6" value="headset"/>
+                <element inactive_on_update="false" label="Keyboard" sequence="4" value="keyboard"/>
+                <element inactive_on_update="false" label="Mobile" sequence="2" value="mobile"/>
+                <element inactive_on_update="false" label="Monitor" sequence="3" value="monitor"/>
+                <element inactive_on_update="false" label="Desktop" sequence="1" value="desktop"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Mouse" sequence="5" value="mouse"/>
+            </choice>
+        </element>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
